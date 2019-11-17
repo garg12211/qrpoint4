@@ -1,0 +1,2 @@
+include ':app', ':jsch-0.1.55', ':mysql-connector-java-8.0.18'
+rootProject.name='qrpoint'

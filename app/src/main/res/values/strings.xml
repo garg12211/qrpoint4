@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">qrpoint</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sign in</string>
+    <string name="nav_header_subtitle"></string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">My Account</string>
+    <string name="menu_transaction">Transactions</string>
+    <string name="menu_qrcode">QR Code</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_signup">Signup</string>
+</resources>

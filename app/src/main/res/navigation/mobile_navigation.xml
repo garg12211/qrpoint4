@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.qrpoint.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_transaction"
+        android:name="com.example.qrpoint.ui.transaction.TransactionFragment"
+        android:label="@string/menu_transaction"
+        tools:layout="@layout/fragment_transaction" />
+
+    <fragment
+        android:id="@+id/nav_qrcode"
+        android:name="com.example.qrpoint.ui.qrcode.QRFragment"
+        android:label="@string/menu_qrcode"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.qrpoint.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.qrpoint.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.example.qrpoint.ui.signup.SignupFragment"
+        android:label="@string/menu_signup"
+        tools:layout="@layout/fragment_signup" />
+
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.example.qrpoint.ui.rewards.RewardsFragment"
+        android:label="Rewards"
+        tools:layout="@layout/fragment_rewards"/>
+
+</navigation>
